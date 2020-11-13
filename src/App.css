@@ -8,7 +8,7 @@
 
 .tagline {
   font-family: 'Lora', serif;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 .home-img {
-  margin: 10% 0;
+  margin: 5% 0 2% 0;
 }
 
 
@@ -73,6 +73,30 @@ h1 {
   100% {
     opacity: 1;
   }
+}
+
+.scrolling-text {
+  position: relative;
+  animation: scroll 20s infinite linear;
+  font-size: 30px;
+
+}
+
+@keyframes scroll{
+  0% {left: 100%;}
+  100% {left: -100%;}
+}
+
+.scrolling-sec {
+  overflow: hidden;
+  display: inline;
+  white-space:nowrap;
+
+}
+
+.scroll-item {
+  padding: 1%;
+  margin: 3% 2%;
 }
 
 
