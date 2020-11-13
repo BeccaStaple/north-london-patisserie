@@ -1,10 +1,17 @@
 import './App.css';
+import Header from "./components/Header"
+import Navbar from "./components/Navbar"
+import HomePic from "./home-pic.png"
+import ScrollText from "./components/ScrollText"
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-     
+      <Navbar />
+      <Header />
+      <img className="home-img" src={HomePic} alt="tart" />
+      <ScrollText />
     </div>
   );
 }
