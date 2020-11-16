@@ -13,11 +13,18 @@
 
 
 .App {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   text-align: center;
   font-family: 'Lora', serif;
   background: linear-gradient(to right, #ffa5a5 50%, #fcdada 50%);
   color: white;
+  
 }
+
 h1 {
   font-family: 'Lora', serif;
 }
@@ -29,13 +36,13 @@ h1 {
 }
 
 .home-img {
-  margin: 5% 0 2% 0;
+  margin: 5% 0 1% 0;
 }
 
 
 .tracking-in-expand {
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 /* ----------------------------------------------
@@ -91,12 +98,24 @@ h1 {
   overflow: hidden;
   display: inline;
   white-space:nowrap;
-
+  margin-top: 2%;
 }
 
 .scroll-item {
   padding: 1%;
-  margin: 3% 2%;
+  margin: 2% 2%;
+}
+
+.home-gallery {
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+.home-pic {
+  width: 20%;
+  padding: 5px;
+  margin-top: 20px;
 }
 
 
