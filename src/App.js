@@ -1,19 +1,21 @@
+import { BrowserRouter as Router } from "react-router-dom"
+
 import './App.css';
-import Header from "./components/Header"
 import Navbar from "./components/Navbar"
-import HomePic from "./home-pic.png"
-import ScrollText from "./components/ScrollText"
-import HomeGallery from './components/HomeGallery';
+import Navigate from "./components/Navigate"
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <img className="home-img" src={HomePic} alt="tart" />
-      <ScrollText />
+      <Router>
+        <Navbar />
+        <Navigate/>
+      </Router>
     </div>
+
+
   );
 }
 

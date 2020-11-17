@@ -3,4 +3,6 @@
     position: fixed;
     margin: 10px;
     text-shadow: 5px 10px 9px #ea86b6;
+    color: white;
+    text-decoration: none;
 }

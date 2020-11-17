@@ -9,6 +9,7 @@
 .tagline {
   font-family: 'Lora', serif;
   font-size: 70px;
+  text-shadow: 5px 5px 10px lightpink;
 }
 
 
@@ -86,7 +87,7 @@ h1 {
   position: relative;
   animation: scroll 20s infinite linear;
   font-size: 30px;
-
+  text-shadow: 5px 5px 10px lightpink;
 }
 
 @keyframes scroll{
